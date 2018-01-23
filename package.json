@@ -1,0 +1,27 @@
+{
+  "name": "new_grey_db_api",
+  "version": "1.0.0",
+  "description": "RESTful api for New Grey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesHargreaves12/new_grey_db_api.git"
+  },
+  "author": "James Hargreaves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesHargreaves12/new_grey_db_api/issues"
+  },
+  "homepage": "https://github.com/jamesHargreaves12/new_grey_db_api#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
