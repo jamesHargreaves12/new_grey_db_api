@@ -2,7 +2,7 @@
 services:
 
   inventory:
-    git_url: git@github.com:launchany/microservices-node-inventory.git
+    git_url: https://github.com/jamesHargreaves12/new_grey_db_api.git
     git_branch: master
     command: npm start
     build_root: .
