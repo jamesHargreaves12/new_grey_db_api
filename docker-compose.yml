@@ -9,6 +9,8 @@ inventory:
   - mongodb:mongodb.cloud66.local
   environment:
     - NODE_ENV=production
-    - MONGODB_ADDRESS=mongodb
+    - MONGODB_ADDRESS=35.177.160.3
+    - DBUSERNAME=readerWriter
+    - DBPASSWORD=password
 mongodb:  
   image: mongo

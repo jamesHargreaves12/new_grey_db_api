@@ -1,8 +1,11 @@
-var location = "35.177.160.3"
-
+var username = process.env.DBUSERNAME;
+var password = process.env.DBPASSWORD;
+var addr = process.env.MONGODB_ADDRESS;
 module.exports = {  
   db: {
-      production: "mongodb://"+location+":27017/test -u testNext -p pass",
-      development: "mongodb://"+location+":27017/test  -u testNext -p pass",
-  }
+      production: "mongodb://" + username + ":" + password + "@" + addr + ":27017/test",
+      development: "mongodb://" + username + ":" + password + "@" + addr + ":27017/test",
+      }
 };
+
+
