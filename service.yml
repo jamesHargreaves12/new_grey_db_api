@@ -12,8 +12,10 @@ services:
         https: 443
     env_vars:
       NODE_ENV: production
-      MONGODB_ADDRESS: 35.177.160.3
+      MONGODB_ADDRESS: ds245218.mlab.com
 
 
 databases:  
   - mongodb
+
+
